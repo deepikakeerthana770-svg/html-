@@ -8,12 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <style>
-        div{
-            border: 1px solid;
-        }
+       
         .title{
             font-size: 45px;
-            font-weight: bold;
+            font-weight:bold;
+            font-style: italic;
         }
 
     </style>
@@ -25,17 +24,54 @@
         <img src="Google.webp" style="width: 100%;" alt="">
         </div>
         <div class="col-4 text-center">
-            <span class="title" style="color: crimson;">Google</span>
+            <span class="title" style="color: rgb(18, 179, 111);">Google</span>
         </div>
         <div class="col-3">
-            <i class="bi bi-instagram" style="color: lightcoral; font-size: 30px;"></i>
+            <a href="https://www.facebook.com/">
+            <i class="bi bi-facebook" style="color: blue; font-size: 30px;"></i></a>
+            <a href="https://www.linkedin.com/">
+            <i class="bi bi-linkedin" style="color: blue;font-size: 30px;"></i></a>
         </div>
-        <div class="col-3" style="color: brown; font-size: 20px;">Welcome, Deepika</div>
-        <div class="col-1"><a href="" style="color: rgb(255, 0, 85); font-size: 30px; text-decoration: none;">Logout</a></div>
+        <div class="col-3"style="color: deeppink; font-size: 20px; font-weight: bold;font-size: 35px;">Welcome, Deepika</div>
+        <div class="col-1"><a href="" style="color: rgb(255, 0, 85);font-weight: bold; font-size: 30px; text-decoration: none;">Logout</a></div>
     </div>
     <!--Row 2 Menu Bar,Search-->
-    <div class="row">
-        <div class="col-9"><Main>MENU BAR</Main></div>
+    <div class="row" style="background-color:rgb(88, 192, 189);">
+        <div class="col-9"><nav class="navbar navbar-expand-lg" >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></Main></div>
         <div class="col-3">
             <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Search the Web" aria-label="Recipient’s username" aria-describedby="basic-addon2">
@@ -46,63 +82,131 @@
     <!--Row 3 Scrolling Text-->
     <div class="row">
         <marquee behavior="" direction="">
-            <h3>Welcome to My Home Page</h3>
+            <a class="mar" href="para style.html">Welcome to My Home Page  </a>
+            <a class="mar" href="website creating.html"> result</a>
         </marquee>
     </div>
-    <!--Row 4 Sliding Images-->
-    <div class="row">
-        <div style="width: 100%;">
-     <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- row 4 Sliding images-->
+  <div class="row">
+    <div class="col-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="button"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img.2" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img.3" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img.4" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img.6" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <div class="card col-3 m-0">
+    <img src="img.2" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the
+        bulk of the card’s content.
+      </p>
+       <i class="bi bi-hand-thumbs-up">
+       </i><i class="bi bi-hand-thumbs-down-fill">
+       </i><i class="bi bi-chat-left-text"></i>
+    </div>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img.1" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img.2" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img.6" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img.3" class="d-block w-100" alt="...">
-    </div>
+  <div class="card col-3 m-0" >
+        <img src="img.3" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <i class="bi bi-hand-thumbs-up"></i>
+          <i class="bi bi-hand-thumbs-down-fill"></i>
+          <i class="bi bi-chat-left-text"></i>
+        </div>
+      </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    </div>
-    <!--Row 5 Cards-->
-    <div class="row">
-        <div style="display:flex;">
-  <div class="card" style="width: 18rem;">
-  <img src="img.4" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="img.5" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
+
+
+  <!--cards x 4-->
+  <div class="row">
+    <div style="display: flex">
+      <div class="card-body" style="width: 18rem">
+        <img src="img.5" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+           <i class="bi bi-hand-thumbs-up"></i>
+           <i class="bi bi-hand-thumbs-down-fill"></i>
+           <i class="bi bi-chat-left-text"></i> 
+          
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="img.3" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="img.2" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="img.4" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </div>
 </body>
+
 </html>
